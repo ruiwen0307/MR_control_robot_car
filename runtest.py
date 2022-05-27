@@ -9,11 +9,11 @@ IN2 = 18
 IN3 = 27
 IN4 = 22
 # back left
-IN5 = 36
-IN6 = 37
+IN5 = 5
+IN6 = 6
 #back right
-IN7 = 38
-IN8 = 40
+IN7 = 12
+IN8 = 13
 
 def init() :
 	GPIO.setup(IN1,GPIO.OUT)
