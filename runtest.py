@@ -9,11 +9,11 @@ IN2 = 18
 IN3 = 27
 IN4 = 22
 # back left
-IN5 = 5
-IN6 = 6
+IN5 = 36
+IN6 = 37
 #back right
-IN7 = 12
-IN8 = 13
+IN7 = 38
+IN8 = 40
 
 def init() :
 	GPIO.setup(IN1,GPIO.OUT)
@@ -83,7 +83,7 @@ def right(sleep_time) :
 
 init()
 while True:
-	ch = input("前進: w, 後退: s, 左轉: a, 右轉: d")
+	ch = input("front: w, back: s, left: a, right: d")
 	if ch == 'w':
 		front(10)
 	elif ch == 'a':
