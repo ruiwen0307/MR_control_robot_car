@@ -3,17 +3,17 @@ import time
 
 GPIO.setmode(GPIO.BOARD)
 # front left
-IN1 = 17
-IN2 = 18
+IN1 = 17	# 11
+IN2 = 18	# 12
 # front right
-IN3 = 27
-IN4 = 22
-# back left
-IN5 = 5
-IN6 = 6
-#back right
-IN7 = 12
-IN8 = 13
+IN3 = 27	# 13
+IN4 = 22	# 15
+# back right
+IN5 = 5		# 29
+IN6 = 6		# 31
+#back left
+IN7 = 12	# 32
+IN8 = 13	# 33
 
 def init() :
 	GPIO.setup(IN1,GPIO.OUT)
